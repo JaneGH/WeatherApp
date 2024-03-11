@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.air-quality-info {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.air-quality-info p {
+    margin: 10px 0;
+}
+
+.air-quality-info p span {
+    font-weight: bold;
+}
+
+.air-quality-info p span.air-quality-index {
+    color: #007bff; 
+}
+
+.air-quality-info p span.dust {
+    color: #ff4500; 
+}
